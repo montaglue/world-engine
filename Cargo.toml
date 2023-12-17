@@ -1,0 +1,12 @@
+[package]
+name = "world-engine"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+markdown = { git = "https://github.com/wooorm/markdown-rs", branch = "main" }
+yaml-rust = { git = "https://github.com/chyh1990/yaml-rust.git" }
+thiserror = "1.0.50"
+chrono = "0.4.31"
